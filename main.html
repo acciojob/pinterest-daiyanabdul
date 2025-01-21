@@ -3,13 +3,63 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .hero {
+            display: flex;
+            justify-content: center;
+            /* Centers content horizontally */
+            align-items: center;
+            /* Centers content vertically */
+
+        }
+
+        /* Image styling */
+        .hero-image {
+            width: 60%;
+            /* Cover most of the section */
+            height: 100%;
+            object-fit: cover;
+            /* Ensures the image fits without distortion */
+        }
+
+
+
+        button[type="submit"] {
+            padding: 10px 20px;
+            background-color: red;
+            color: white;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-left: 150px;
+            margin-top: 10px;
+        }
+    </style>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+    <div class="hero">
+        <img
+            src="https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+
+        <div class="text">
+            <h1 style="margin-left: 70px; margin-bottom: 0px; font-size: 40px;">Welcome to my
+                <br>Pinterest clone
+            </h1>
+            <p style="text-align: center; margin-left: 50px; margin-top: 0px; font-size: 20px; margin-bottom: 6px;">
+                Discover new inspiration and save your<br> favorite ideas</p>
+            <button type="submit">Explore now</button>
+
+        </div>
+
+
+    </div>
+
+
+    <!-- the entire body must be written by student -->
+
     <script type="text/javascript" src="./script.js">
-</script>
+    </script>
 
 </body>
 
